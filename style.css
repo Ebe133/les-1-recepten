@@ -1,0 +1,119 @@
+/* Algemene styling voor de body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Styling voor de titel */
+h1 {
+    text-align: center;
+    color: #2c6e49;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Styling voor de veldsets */
+fieldset {
+    border: 2px solid #2c6e49;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Algemene paragrafen */
+p {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333333;
+}
+
+/* Styling voor subkoppen (Ingrediënten, Instructies) */
+h2, h3, h4 {
+    color: #2c6e49;
+    font-weight: bold;
+}
+
+h3, h4 {
+    margin-top: 10px;
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    border-bottom: 2px solid #2c6e49;
+    padding-bottom: 5px;
+}
+
+/* Styling voor de ingrediëntenlijst */
+h3, h4 {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Instructies sectie */
+fieldset h3 + br + br {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+/* Stijling van stappen en instructies */
+fieldset p + br + h2, fieldset p + br + br + h2 {
+    margin-top: 25px;
+    font-size: 1.2em;
+}
+
+/* Ingrediënten lijst layout */
+h3, h4 {
+    font-size: 1em;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* Instructie tekst */
+fieldset p + h3, fieldset p + h4 {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+/* Styling voor de tekst in de stappen */
+fieldset p + h2, fieldset p + h4 {
+    margin-top: 20px;
+    font-size: 1.3em;
+}
+
+/* Olijfolie en andere ingrediënten */
+fieldset br + br {
+    line-height: 1.6;
+}
+
+/* Marges en padding voor veldsets */
+fieldset p, fieldset h3, fieldset h4 {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Styling voor de knoppen */
+button {
+    background-color: #2c6e49;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1f4e34;
+}
+
